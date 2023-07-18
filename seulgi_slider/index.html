@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%=htmlWebpackPlugin.options.title %>
+  </head>
+
+  <body>
+    <div class="slider-wrap" id="slider-wrap">
+      <ul class="list slider" id="slider">
+        <li>
+          <img src="<%=require('./src/image/seulgi1.jpg')%>" />
+        </li>
+        <li>
+          <img src="<%=require('./src/image/seulgi2.jpg')%>" />
+        </li>
+        <li>
+          <img src="<%=require('./src/image/seulgi3.jpg')%>" />
+        </li>
+        <li>
+          <img src="<%=require('./src/image/seulgi4.jpg')%>" />
+        </li>
+        <li>
+          <img src="<%=require('./src/image/seulgi5.jpg')%>" />
+        </li>
+        <li>
+          <img src="<%=require('./src/image/seulgi6.jpg')%>" />
+        </li>
+        <li>
+          <img src="<%=require('./src/image/seulgi7.jpg')%>" />
+        </li>
+        <li>
+          <img src="<%=require('./src/image/seulgi8.jpg')%>" />
+        </li>
+        <li>
+          <img src="<%=require('./src/image/seulgi9.jpg')%>" />
+        </li>
+        <li>
+          <img src="<%=require('./src/image/seulgi10.jpg')%>" />
+        </li>
+      </ul>
+
+      <div class="btn next" id="next"><i class="fa fa-arrow-down"></i></div>
+      <div class="btn previous" id="previous">
+        <i class="fa fa-arrow-up"></i>
+      </div>
+
+      <div class="indicator-wrap" id="indicator-wrap">
+        <ul></ul>
+      </div>
+
+      <div class="control-wrap play" id="control-wrap">
+        <i class="fa fa-pause" id="pause" data-status="pause"></i>
+        <i class="fa fa-play" id="play" data-status="play"></i>
+      </div>
+    </div>
+  </body>
+</html>
